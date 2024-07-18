@@ -1,4 +1,4 @@
-package com.smallyang.architecture.config;
+package com.smallyang.architecture.common.config;
 
 /**
  * @author USER

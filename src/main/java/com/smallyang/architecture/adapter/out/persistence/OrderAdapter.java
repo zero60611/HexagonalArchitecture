@@ -1,7 +1,7 @@
 package com.smallyang.architecture.adapter.out.persistence;
 
-import com.smallyang.architecture.application.port.out.AddOrderPort;
-import com.smallyang.architecture.application.port.out.UpdateOrderPort;
+import com.smallyang.architecture.application.port.out.order.AddOrderPort;
+import com.smallyang.architecture.application.port.out.order.UpdateOrderPort;
 import org.springframework.stereotype.Component;
 
 /**

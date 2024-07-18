@@ -1,4 +1,4 @@
-package com.smallyang.architecture.application.port.out;
+package com.smallyang.architecture.application.port.out.order;
 
 /**
  * @author USER

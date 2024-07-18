@@ -12,9 +12,11 @@ import org.springframework.stereotype.Controller;
 public class CrossController {
     public CrossController(CrossUseCase c, CustomerUseCase2 c2) {
         this.c = c;
+        this.c2 = c2;
     }
 
     private final CrossUseCase c;
+    private final CustomerUseCase2 c2;
 
     @GetMapping()
     public void dxd(){
