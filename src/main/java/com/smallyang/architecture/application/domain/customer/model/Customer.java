@@ -1,4 +1,4 @@
-package com.smallyang.architecture.domain.product;
+package com.smallyang.architecture.application.domain.customer.model;
 
 /**
  * @author USER

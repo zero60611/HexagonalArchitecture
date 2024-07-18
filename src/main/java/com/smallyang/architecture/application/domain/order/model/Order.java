@@ -1,4 +1,4 @@
-package com.smallyang.architecture.domain.order;
+package com.smallyang.architecture.application.domain.order.model;
 
 /**
  * @author USER
