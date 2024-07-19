@@ -6,5 +6,6 @@ package com.smallyang.architecture.application.port.out.order;
  * @date 2024-07-18 下午 11:46
  */
 public interface AddOrderPort {
+    // db操作 或call外部API
     void add();
 }

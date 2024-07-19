@@ -2,14 +2,16 @@ package com.smallyang.architecture.adapter.in.web.controller;
 
 import com.smallyang.architecture.application.port.in.CrossUseCase;
 import com.smallyang.architecture.application.port.in.CustomerUseCase2;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author USER
  * @date 2024-07-18 下午 11:20
  */
-@Controller
+@RestController
 public class CrossController {
+    // 這邊引入所有interface port，由adapter去實作interface
     public CrossController(CrossUseCase c, CustomerUseCase2 c2) {
         this.c = c;
         this.c2 = c2;
